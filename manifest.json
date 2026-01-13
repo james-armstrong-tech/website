@@ -1,0 +1,14 @@
+{
+  "name": "Armstrong Accountants",
+  "short_name": "Armstrong",
+  "theme_color": "#0A2342",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

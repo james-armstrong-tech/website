@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <style>
+      .b{fill:#0A2342}.a{fill:#D4A017}.t{fill:#667085;font:700 28px Montserrat,Arial}
+    </style>
+  </defs>
+  <rect width="600" height="400" fill="#f5f7fb"/>
+  <circle cx="110" cy="120" r="60" class="a"/>
+  <rect x="210" y="80" width="320" height="60" rx="10" class="b"/>
+  <rect x="210" y="160" width="180" height="24" rx="6" fill="#2c4870"/>
+  <rect x="210" y="200" width="270" height="24" rx="6" fill="#2c4870"/>
+  <text x="220" y="120" class="t" fill="#fff">Clear Accounting</text>
+</svg>

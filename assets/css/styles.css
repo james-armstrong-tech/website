@@ -1,0 +1,55 @@
+/* ===============
+   Armstrong Accountants – Styles
+   =============== */
+:root{
+  --brand:#0A2342; /* navy */
+  --accent:#D4A017; /* amber */
+  --text:#1d2433;
+  --muted:#667085;
+  --bg:#ffffff;
+  --shade:#f5f5f7;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Lato,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+h1,h2,h3,h4{font-family:Montserrat, Lato, sans-serif}
+a{color:var(--brand);text-decoration:none}
+.container{width:min(1100px,92%);margin:auto}
+.site-header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:100}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--brand)}
+.brand img{height:34px}
+.main-nav{display:flex;gap:18px;align-items:center}
+.main-nav a{padding:8px 10px;color:#243}
+.btn{display:inline-block;padding:12px 18px;border-radius:8px;font-weight:600;border:1px solid transparent}
+.btn-primary{background:var(--brand);color:#fff}
+.btn-secondary{background:#fff;border-color:var(--brand);color:var(--brand)}
+.hero{padding:56px 0;background:linear-gradient(180deg,#ffffff 0,#f7f9fc 100%)}
+.hero-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+.hero-text h1{font-size:clamp(28px,3.6vw,44px);margin:0 0 12px}
+.hero-text p{color:var(--muted);font-size:18px}
+.cta-group{margin-top:16px;display:flex;gap:12px;flex-wrap:wrap}
+.hero-image img{width:100%;max-width:480px}
+.strip{padding:36px 0;background:#fff}
+.grid-3{display:grid;gap:18px;grid-template-columns:repeat(3,1fr)}
+.grid-2{display:grid;gap:22px;grid-template-columns:repeat(2,1fr)}
+.card{background:#fff;border:1px solid #eee;border-radius:14px;padding:18px}
+.accent-box{background:var(--shade);border-radius:14px;padding:18px}
+.page-hero{padding:48px 0;background:linear-gradient(180deg,#f7f9fc 0,#ffffff 100%);margin-bottom:16px}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.service-card{border:1px solid #eee;border-radius:14px;padding:18px;background:#fff}
+.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.team-card{background:#fff;border:1px solid #eee;border-radius:14px;padding:18px;text-align:center}
+.team-card img{width:100%;height:180px;object-fit:cover;border-radius:10px;background:#ddd}
+.contact-form{display:grid;gap:12px}
+.contact-form label{display:grid;gap:6px;font-weight:600}
+.contact-form input,.contact-form textarea{padding:12px;border:1px solid #d0d7de;border-radius:10px;font:inherit}
+.site-footer{margin-top:48px;padding:28px 0;border-top:1px solid #eee;background:#fff}
+.site-footer .print{padding-top:10px}
+.small{font-size:14px}
+
+/* Responsive */
+@media (max-width:900px){
+  .hero-inner{grid-template-columns:1fr}
+  .grid-2{grid-template-columns:1fr}
+  .grid-3{grid-template-columns:1fr}
+}

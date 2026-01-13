@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.armstrong-accountants.co.uk/sitemap.xml
